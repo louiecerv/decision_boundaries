@@ -84,7 +84,7 @@ This interactive application provides a platform for computer science students t
     with st.sidebar:
         st.header("Data Parameters")
         n_samples = st.slider("Number of Samples", 300, 1000, 500)
-        cluster_std = st.slider("Cluster Standard Deviation", 0.1, 1.0, 0.5)
+        cluster_std = st.slider("Cluster Standard Deviation", 0.1, 3.0, 0.5)
         random_state = st.slider("Random State", 0, 100, 42)
         n_clusters = st.slider("Number of Clusters", 2, 6, 2)
     
