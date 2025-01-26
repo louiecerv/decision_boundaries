@@ -121,6 +121,7 @@ This interactive application provides a platform for computer science students t
             st.text("Classification Report")
             st.write(cr)
             visualize_classifier(trained_model, X_train, y_train, title=f"{name} Decision Boundary")
-
+            
+    st. write("© 2025 West Visayas State University")
 if __name__ == "__main__":
     main()
