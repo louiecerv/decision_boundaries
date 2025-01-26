@@ -52,7 +52,7 @@ def visualize_classifier(classifier, X, y, title=''):
 def main():
     st.title("📊📈📉 Machine Learning Decion Boundary Comparison")
 
-    about = """```
+    about = """
 # Visualizing Decision Boundaries in Machine Learning Algorithms 🧮
 
 This interactive application provides a platform for computer science students to gain a deeper understanding of how various machine learning algorithms approach classification tasks. By manipulating data characteristics and observing the resulting decision boundaries, students can develop an intuitive grasp of the strengths and weaknesses of different models.
@@ -80,7 +80,7 @@ This interactive application provides a platform for computer science students t
 ** 💡Created by: Louie F. Cervantes, M. Eng. (Information Engineering) **
 (c) 2025 West Visayas State University
     """
-    with st.expander("About this app")
+    with st.expander("About this app"):
         st.markdown(about)
     
     with st.sidebar:
